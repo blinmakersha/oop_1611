@@ -7,7 +7,7 @@ alpha = 180
 class Sphere:
     """Class for the Sphere."""
 
-    def __init__(self, radius=1, speed=0, boost=0, time=0):
+    def __init__(self, radius, speed, boost, time):
         """Creates a sphere.
 
         Args:
